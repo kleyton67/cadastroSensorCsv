@@ -67,7 +67,7 @@ def csv2dict_si_sen(file):
     """
 silo = ["silo1", "silo2", "silo3","silo4"]
 
-bd = Connection_bd("root", "pass", "bd.com", "bdName")
+bd = Connection_bd("root", "pass", "dbHost", "bdName")
 
 bd.add_silos(silo)
 for i in silo:
